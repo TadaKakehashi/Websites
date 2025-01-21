@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+button.b2{
+    background-color: aqua;
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gilroy';
+    font-style: oblique;
+    font-weight: 700;
+}
+
+div.body1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+div.btn1{
+
+   width: 150px;
+   height: 150px;
+   background-color: red;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   cursor: none;
+   user-select: none;
+   font-family: 'Gilroy';
+   font-weight: 300;
+   font-size: 20px;
+}
