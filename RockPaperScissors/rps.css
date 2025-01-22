@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    caret-color: transparent;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.header h2{
+    padding-top: 30px;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.rock{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    background-image: url("rock.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.paper{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    background-image: url("paper.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.scissors{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    background-image: url("scissors.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.score{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    width:400px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+}
+
+div .win{
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+div .lose{
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+div .tie{
+    padding-top: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 195, 255);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
